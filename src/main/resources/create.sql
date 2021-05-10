@@ -1,8 +1,8 @@
 CREATE DATABASE IF NOT EXISTS `authentication` DEFAULT CHARACTER SET utf8;
 USE `authentication`;
 
-CREATE USER 'demoUser'@'localhost' IDENTIFIED BY 'neverStorePasswordsInSourceCode';
-GRANT ALL PRIVILEGES ON authentication.* TO 'demoUser'@'localhost';
+CREATE USER 'demoUser' IDENTIFIED BY 'neverStorePasswordsInSourceCode';
+GRANT ALL PRIVILEGES ON authentication.* TO 'demoUser';
 
 CREATE TABLE IF NOT EXISTS `authentication`.`credentials`
 (
