@@ -1,11 +1,11 @@
 package com.example.authentication.model.dto;
 
 /**
- * @author Robert Kensen on 10-5-2021
+ * @author Robert Kensen on 13-5-2021
  * @project Authentication
  */
-public class Hash {
+public class HashProduct {
     public String hashedPassword;
-    public String usedSalt;
+    public String randomSalt;
     public String usedAlgorithm;
 }

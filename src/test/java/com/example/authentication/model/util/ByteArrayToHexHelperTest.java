@@ -11,7 +11,7 @@ import static org.assertj.core.api.Assertions.*;
 class ByteArrayToHexHelperTest {
 
     @Test
-    void test_byte_array_returns_hexadecimal() {
+    void test_signed_byte_array_returns_hexadecimal() {
         byte[] byteArray1 = {2, 4, 8, 15};
         byte[] byteArray2 = {16, 127, -128, -1};
 
